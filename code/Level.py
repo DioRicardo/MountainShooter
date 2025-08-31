@@ -1,7 +1,12 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import pygame.display
+import sys
 
+import pygame.display
+from pygame import Surface, Rect
+from pygame.font import Font
+
+from code.Const import COLOR_WHITE, WIN_HEIGHT
 from code.Entity import Entity
 from code.EntityFactory import EntityFactory
 
@@ -13,6 +18,7 @@ class Level:
         self.game_mode = game_mode
         self.entity_list: list[Entity] = []
         self.entity_list.extend(EntityFactory.get_entity('Level1Bg'))
+        self.timeout = 20000  # 20 segundos
 
     def run(self):
         pygame.mixer_music.load(f'./asset/{self.name}.mp3')
