@@ -15,8 +15,8 @@ Score is saved in database (SQLite3))
 
 GAME MENU
 
-![Menu](https://github.com/user-attachments/assets/c9524f59-6ebd-443a-82c0-53b63eb2128f)
+![Menu]((https://github.com/DioRicardo/MountainShooter/blob/main/asset/MenuPrint.png?raw=true))
 
 GAME LEVEL 1
 
-![Level1](https://github.com/user-attachments/assets/8af63514-178d-44c9-9eb0-299e0aee0933)
+![Level1]((https://github.com/DioRicardo/MountainShooter/blob/main/asset/Level1Print.png?raw=true))
